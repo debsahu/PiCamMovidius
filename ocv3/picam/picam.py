@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import sys,os,time,csv,getopt,cv2,argparse
+import sys,os,time,csv,getopt,cv2,argparse,ntpath
 import numpy as np
 from datetime import datetime
 #import imutils
