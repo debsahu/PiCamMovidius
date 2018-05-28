@@ -42,5 +42,5 @@ clean:
 $(EXECUTABLE): $(OBJECTS)
 	@echo Linking: $@
 	@$(CPP) -shared -Wl,--export-dynamic $(OBJECTS) $(LDFLAGS) -o $@
-	cp -f $(EXECUTABLE) ./detectionExample/$(EXECUTABLE)
+	cp -f $(EXECUTABLE) ./picam/$(EXECUTABLE)
 
