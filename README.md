@@ -86,6 +86,7 @@ sudo modprobe bcm2835-v4l2
 - Enter into following directory
 ```
 cd ~/PiCamMovidius/ocv3
+make
 ```
 - Edit picam.py with appropiate MQTT server IP, port and topic and run python script
 ```
